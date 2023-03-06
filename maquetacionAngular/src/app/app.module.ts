@@ -11,6 +11,7 @@ import { ProyectosComponent } from './ComponentesMaquetacion/proyectos/proyectos
 import { LoginuserComponent } from './ComponentesMaquetacion/loginuser/loginuser.component';
 import { BannerComponent } from './ComponentesMaquetacion/banner/banner.component';
 import { HomeComponent } from './ComponentesMaquetacion/home/home.component';
+import { LogosApRedesSocialesLoginComponent } from './ComponentesMaquetacion/logos-ap-redes-sociales-login/logos-ap-redes-sociales-login.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { HomeComponent } from './ComponentesMaquetacion/home/home.component';
     ProyectosComponent,
     LoginuserComponent,
     BannerComponent,
-    HomeComponent
+    HomeComponent,
+    LogosApRedesSocialesLoginComponent
   ],
   imports: [
     BrowserModule,
