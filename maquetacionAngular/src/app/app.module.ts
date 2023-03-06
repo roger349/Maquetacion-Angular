@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './ComponentesMaquetacion/header/header.component';
@@ -11,6 +10,7 @@ import { HsskillsComponent } from './ComponentesMaquetacion/hsskills/hsskills.co
 import { ProyectosComponent } from './ComponentesMaquetacion/proyectos/proyectos.component';
 import { LoginuserComponent } from './ComponentesMaquetacion/loginuser/loginuser.component';
 import { BannerComponent } from './ComponentesMaquetacion/banner/banner.component';
+import { HomeComponent } from './ComponentesMaquetacion/home/home.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +22,8 @@ import { BannerComponent } from './ComponentesMaquetacion/banner/banner.componen
     HsskillsComponent,
     ProyectosComponent,
     LoginuserComponent,
-    BannerComponent
+    BannerComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
@@ -36,7 +37,8 @@ import { BannerComponent } from './ComponentesMaquetacion/banner/banner.componen
     HsskillsComponent,
     ProyectosComponent,
     LoginuserComponent,
-    BannerComponent
+    BannerComponent,
+    HomeComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
